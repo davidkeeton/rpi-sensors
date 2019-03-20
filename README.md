@@ -8,7 +8,7 @@ hobby rpi project to display sensor data
 Day 1. Installed 2 useful driver paks relavent to the sensors I have.
 DHT22 - Adafruit_DHT Python Pak
 Raspi-Driver-SBS30 for the SBS Sensor 
-  modified output of log file to output data only and changed datapath (sps-sql(mod).py)
+  modified output of log file to output data only and changed log path (sps30-service(modified).py)
 
 Initialised Maria db with following structure
 
@@ -23,4 +23,4 @@ Wrote a script to parse log file and insert into sql "sps-scrape.py"
 
 Modified a highcharts template to display data (/html)
 
-
+Well its working. I have new sensors arriving soon. I will have to modify this again,.. hope this can be helpful to someone :)
