@@ -231,7 +231,7 @@ $(function() {
     });
 });
 
-# adafruit leftover below. might be useful later so I left it in.
+//adafruit leftover below. might be useful later so I left it in.
 function timeConverter(UNIX_timestamp){
   var a = new Date(UNIX_timestamp * 1000);
   var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
